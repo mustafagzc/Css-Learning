@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        box-sizing: border-box;
+       }
+
+        .col{
+            float: left;
+            padding:  15px 15px 15px 0;
+        }
+
+        .menu{
+            width: 25%;
+        }
+
+        .menu ul{
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .menu li{
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: #502064;
+            color: #fff;
+        }
+
+        .content{
+            width: 75%;
+        }
+
+        header,footer{
+            background-color: #8267BE;
+            color: #FFBD35;
+            padding: 15px;
+        }
+
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header> 
+        <h2>AREA OF HEADER </h2>
+    </header>
+
+     <main class="clearfix">
+        <div class="menu col">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div class="content col">
+            <h1>Komple Web Geliştirme</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, assumenda? Voluptatum, atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, provident.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae aperiam voluptatum quasi assumenda suscipit voluptas est.</p>
+        </div>
+     </main>
+    
+     <footer>AREA OF FOOTER</footer>
+     
+    
+</body>
+</html>
